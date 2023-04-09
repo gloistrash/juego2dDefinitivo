@@ -281,6 +281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -377,6 +381,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -755,6 +763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1041,6 +1053,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2315,8 +2331,8 @@ Tilemap:
   - first: {x: 0, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2384,11 +2400,11 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 15
+  - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: 40a9c656c9eea814192a88be599d7dbe, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 5b58b2e747055764fa8a15054bff8b65, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: f66f7f32e5d766448809436a6718d8a5, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: aa3dd0061666cbe49a4405e4ca2a4b77, type: 2}
@@ -2411,11 +2427,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 5868951d3f54034458f571469cded3c6, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 15
+  - m_RefCount: 16
     m_Data: {fileID: -3448537122672656574, guid: f6a59f814b7ff774787abe2648767942, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: -2822765600456342373, guid: f6a59f814b7ff774787abe2648767942, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 359428717273489742, guid: f6a59f814b7ff774787abe2648767942, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -8765491249581365333, guid: f6a59f814b7ff774787abe2648767942, type: 3}
@@ -2490,6 +2506,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2586,6 +2606,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3273,7 +3297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saltando: 1
-  salto: 3.5
+  salto: 7
   controlAnimacion: {fileID: 1267896518}
 --- !u!82 &1267896521
 AudioSource:
@@ -3831,6 +3855,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4053,6 +4081,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922518814}
     m_Modifications:
+    - target: {fileID: 5563037074906653825, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
+      propertyPath: gestorSonido
+      value: 
+      objectReference: {fileID: 818291456}
     - target: {fileID: 6406093469443773699, guid: f3aaf29ae04fec74aa0c25d82a98e64d, type: 3}
       propertyPath: m_RootOrder
       value: 7

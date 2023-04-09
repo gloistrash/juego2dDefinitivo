@@ -34,7 +34,7 @@ public class Dead : MonoBehaviour
             Debug.Log("ha susedido la susedura x_x");
         //gestorSonido.GetComponent<AudioSource>().PlayOneShot(gestorSonido.GetComponent<AudioManager>().sonidoMuerte,1f);
         gestorSonido.GetComponent<AudioManager>().sonidoDead();
-        principalScript.Vida = -1;
+        principalScript.Vida -=1;
         Personaje.transform.position = new Vector3 (0.02526699f,0.5349998f,0f);
         contadorTrigger++;
 
